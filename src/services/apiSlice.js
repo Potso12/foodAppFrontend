@@ -3,7 +3,7 @@ import { setAccessToken } from './loginSlice'
 
 
 const baseQueryWithAccessToken = fetchBaseQuery({
-  baseUrl: 'https://foodapp-api-ioi8.onrender.com/api',
+  baseUrl: 'http://localhost:3001/api',
   credentials: 'include',
   prepareHeaders: (headers, { getState }) => {
 
